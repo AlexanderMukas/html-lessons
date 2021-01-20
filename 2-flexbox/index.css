@@ -1,7 +1,7 @@
 .container {
     border : 5px solid #ffcc5c;
     display: flex;
-
+    
     /* flex-direction: row; --> default */
     /* flex-direction: column; */
 
@@ -11,6 +11,7 @@
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
+
 }
 
 /* .home {
@@ -24,13 +25,35 @@
 
 /* Flex Property  */
 
-.container > div {
+/* .container > div {
+    flex: 1; 
+  
+    flex-grow, flex-shrink, flex-basis  
+
+    width: 33.33333%; 
+ } 
+ */
+
+/* .home {
     flex: 1;
-    /* flex-grow, flex-shrink, flex-basis */
-
-    /* width: 33.33333%; */
 }
+.logout {
+    flex: 1;    
+} */
 
-.container > .search {
-    flex: 4;
+/* 6. Align Items */
+.container {
+    height: 100%;
+
+    /* !!! vertical align!!! */
+
+    /* align-items: flex-start; */ 
+    /* align-items: flex-end; */
+    align-items: center;
+
+    /* !!! gorizontal align!!! */
+    /* justify-content: center; */
+
+    
+
 }

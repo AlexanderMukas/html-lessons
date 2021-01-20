@@ -8,6 +8,8 @@
 html, body {
     background-color: #ffeead;
     margin: 10px;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .container > div:nth-child(1) {
@@ -15,7 +17,7 @@ html, body {
 }
 
 .container > div:nth-child(2) {
-    background-color: #ff6f69;
+    background-color: #408852;
 }
 
 .container > div:nth-child(3) {
