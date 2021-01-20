@@ -1,3 +1,16 @@
 .container {
     border : 5px solid #ffcc5c;
+    display: flex;
+
+    /* flex-direction: row; --> default */
+    /* flex-direction: column; */
+
+    /* justify-content: flex-start; --> default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    
 }
+
