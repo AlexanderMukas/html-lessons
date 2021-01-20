@@ -42,6 +42,7 @@
 } */
 
 /* 6. Align Items */
+
 .container {
     height: 100%;
 
@@ -53,7 +54,11 @@
 
     /* !!! gorizontal align!!! */
     /* justify-content: center; */
-
-    
-
 }
+
+.logout {
+    align-self: flex-start;
+}
+.home {
+    align-self: flex-end;
+} 
