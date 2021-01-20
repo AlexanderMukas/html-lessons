@@ -19,5 +19,9 @@ html, body {
 }
 
 .container > div:nth-child(3) {
-    background-color: #88d8b0;
+    background-color: #a55e5e;
+}
+
+.container > div:nth-child(4) {
+    background-color: #ff6f69;
 }

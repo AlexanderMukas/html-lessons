@@ -11,6 +11,26 @@
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
-    
 }
 
+/* .home {
+    margin-right: auto;
+} */
+/* 
+.search {
+    margin-left: auto;
+
+} */
+
+/* Flex Property  */
+
+.container > div {
+    flex: 1;
+    /* flex-grow, flex-shrink, flex-basis */
+
+    /* width: 33.33333%; */
+}
+
+.container > .search {
+    flex: 4;
+}
