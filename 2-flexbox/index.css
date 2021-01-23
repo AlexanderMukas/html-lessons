@@ -44,7 +44,7 @@
 /* 6. Align Items */
 
 .container {
-    height: 100%;
+    /* height: 100%; */
 
     /* !!! vertical align!!! */
 
@@ -57,7 +57,7 @@
 }
 
 .logout {
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 .home {
     align-self: flex-end;
