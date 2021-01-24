@@ -48,12 +48,12 @@
 
     /* !!! vertical align!!! */
 
-    /* align-items: flex-start; */ 
-    /* align-items: flex-end; */
-    align-items: center;
+    /* align-items: flex-start;  */
+    align-items: flex-end;
+    /* align-items: center; */
 
     /* !!! gorizontal align!!! */
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .logout {
