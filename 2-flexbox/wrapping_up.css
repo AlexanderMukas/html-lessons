@@ -1,4 +1,13 @@
+/* wrap items in flexbox 23:15 */
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
+
+    
+    /* flex-wrap: nowrap; -->default*/
+    flex-wrap: wrap;
+}
+
+.container > div {
+    width: 300px;
 }
