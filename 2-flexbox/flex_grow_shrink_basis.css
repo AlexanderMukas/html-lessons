@@ -6,18 +6,21 @@
 
 
 .home {
-    /* flex: 1 1 0; */
+    flex: 1 1 200px;
     /* flex: grow shrink basis; */
-    flex-grow: 0;
-    /* flex-shrink: 1; */
-    flex-basis: 200px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
 }
 
 .logout{
-    /*flex: 1 1 0; */
+    flex: 1 1 200px;
     /* flex: grow shrink basis; */
-    flex-grow: 1;
-    /* flex-shrink: 1; */
-    flex-basis: 200px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+
+
+
 }
 /* basis - base width */
