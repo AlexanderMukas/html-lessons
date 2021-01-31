@@ -1,17 +1,23 @@
 .container {
-    border: 5px solid #332233;
+    border: 5px solid #ffcc5c;
     display: flex;
     
 }
 
 
 .home {
-    flex: 1 1 0;
-    /* flex-grow: ;
-    flex-shrink: ;
-    flex-basis: ; */
+    /* flex: 1 1 0; */
+    /* flex: grow shrink basis; */
+    flex-grow: 0;
+    /* flex-shrink: 1; */
+    flex-basis: 200px;
 }
 
 .logout{
-    flex: 1;
+    /*flex: 1 1 0; */
+    /* flex: grow shrink basis; */
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    flex-basis: 200px;
 }
+/* basis - base width */
