@@ -1,0 +1,33 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    
+    
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+        
+    }
+    .container > li {
+        flex: 1 1 50%;
+    }
+}
+
+
+.home{
+    background-color: blueviolet;
+}
+
+.profile{
+    background-color: green;
+}
+
+.search{
+    background-color: blue;
+}
+
+.logout{
+    background-color: coral; 
+}
