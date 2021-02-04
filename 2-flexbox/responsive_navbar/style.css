@@ -13,8 +13,33 @@
     .container > li {
         flex: 1 1 50%;
     }
+
+    .search > input {
+        text-align: center;
+    }
 }
 
+@media all and (max-width: 400px) {
+  
+    .container > li {
+        flex: 1 1 100%;
+    }
+    .search{
+        order: 1;
+        background-color: honeydew;
+    }
+
+   
+}
+
+
+
+
+
+.search{
+    flex: 1;
+    background-color: blue;
+}
 
 .home{
     background-color: blueviolet;
@@ -24,9 +49,7 @@
     background-color: green;
 }
 
-.search{
-    background-color: blue;
-}
+
 
 .logout{
     background-color: coral; 
