@@ -2,25 +2,29 @@
     padding: 0;
     margin: 0;
     font-size: 40px;
+
+    box-sizing: border-box;
 }
 
 .box-one {
     background-color: rgb(197, 78, 30);
-    border: 20px solid rgb(80, 35, 163);
+    border: 10px solid rgb(80, 35, 163);
 
     padding: 20px;
-    margin: 20px;
+    margin: 60px;
 
     height: 100px;
     width: 100px;
+
+    /* box-sizing: border-box; */
 }
 
 .box-two {
     background-color: blue;
-    border: 20px solid green;
+    border: 10px solid green;
 
     padding: 20px;
-    margin: 20px;
+    margin: 80px;
 
     height: 100px;
     width: 100px;
