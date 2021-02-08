@@ -7,8 +7,8 @@
 }
 
 .box-one {
-    background-color: rgb(197, 78, 30);
-    border: 10px solid rgb(80, 35, 163);
+    background-color: red;
+    border: 10px solid slateblue;
 
     padding: 20px;
     margin: 60px;
@@ -20,8 +20,8 @@
 }
 
 .box-two {
-    background-color: blue;
-    border: 10px solid green;
+    background-color: red;
+    border: 10px solid slateblue;
 
     padding: 20px;
     margin: 80px;
